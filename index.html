@@ -3,30 +3,34 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Matteo Contini</title>
-  <meta name="description" content="Matteo Contini — PhD student in marine ecosystem monitoring and AI." />
   <link rel="manifest" href="/site.webmanifest" />
   <link rel="stylesheet" href="/styles.css" />
 </head>
+  <title>Matteo Contini</title>
+  <meta name="description" content="Matteo Contini — PhD student in marine ecosystem monitoring and AI." />
 <body>
   <header>
     <div class="wrap nav">
-      <a class="brand" href="#home">Matteo Contini</a>
+      <a class="brand" href="/">Matteo Contini</a>
       <nav class="menu" aria-label="Main navigation">
-        <a href="#home">Home</a>
-        <a href="#research">Research</a>
+        <a href="/">Home</a>
+        <a href="/about/">About me</a>
+        <a href="/research/">Research</a>
         <a href="/publication/">Publications</a>
-        <a href="#outreach">Outreach</a>
+        <a href="/outreach/">Outreach</a>
+        <a href="/cv/">C.V.</a>
       </nav>
     </div>
   </header>
-
   <main class="wrap">
     <section id="home" class="hero">
       <div>
         <h1>Matteo Contini</h1>
-        <p class="subtitle">PhD student in marine ecosystem monitoring and AI</p>
-        <p class="lead">PhD student working on multi-scale mapping of changes in tropical reefs at IFREMER (DOI) and INRIA (IROKO Pl@ntNet team), based in Le Port, La Réunion. His work focuses on underwater and aerial imagery, coral reef monitoring, weak supervision, multi-scale learning, and applied AI for marine ecosystems.</p>
+        <p class="subtitle">Researcher in marine ecosystem monitoring and AI</p>
+        <p class="lead">
+        Recently completed a PhD focused on multi-scale mapping of changes in tropical reefs at IFREMER (DOI) and INRIA (IROKO Pl@ntNet team), based in La Réunion.
+        I am particularly interested in applying artificial intelligence to environmental monitoring, biodiversity conservation and large-scale ecosystem analysis. I welcome collaborations and research opportunities in these domains.
+        </p>
         <ul class="socials">
           <li><a href="https://www.linkedin.com/in/matteo-contini-baa800155/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
           <li><a href="https://www.researchgate.net/profile/Matteo-Contini-2" target="_blank" rel="noopener noreferrer">ResearchGate</a></li>
@@ -35,109 +39,28 @@
         </ul>
       </div>
       <aside class="profile-card">
-        <img class="profile-photo" src="/img/matteo-contini.png" alt="Portrait of Matteo Contini." />
-        <div class="card">
-        <h3>Quick overview</h3>
-        <ul class="mini-list">
-          <li>PhD Student, IFREMER + INRIA (2022–2025)</li>
-          <li>Mathematical Engineering, Politecnico di Milano</li>
-          <li>Double-degree student, École Centrale de Lyon</li>
-          <li>Works on coral reef mapping, segmentation, and marine imagery</li>
-          <li>Based in La Réunion</li>
-        </ul>
+        <div class="photo-block">
+          <img class="profile-photo" src="/img/matteo-contini.jpg" alt="Portrait of Matteo Contini." />
+          <div class="photo-caption">Image credit : Mervyn Ravitchandirane</div>
+        </div>
+        <div class="hero-side-grid">
+          <div class="card compact-card">
+            <h3>Education</h3>
+            <div class="mini-entry"><strong>PhD Student</strong><span>IFREMER + INRIA · 2022–2025</span></div>
+            <div class="mini-entry"><strong>Mathematical Engineering</strong><span>Politecnico di Milano · 2018–2021</span></div>
+            <div class="mini-entry"><strong>General Engineering</strong><span>École Centrale de Lyon · 2016–2018</span></div>
+          </div>
+          <div class="card compact-card">
+            <h3>Experience</h3>
+            <div class="mini-entry"><strong>Monaco Explorations</strong><span>Indian Ocean expedition · 2022</span></div>
+            <div class="mini-entry"><strong>Ifremer DOI</strong><span>Civic service volunteer · 2020–2022</span></div>
+            <div class="mini-entry"><strong>DeepLearn Summer School</strong><span>Porto · 2024</span></div>
+          </div>
         </div>
       </aside>
     </section>
 
-    <section id="research">
-      <h2>Research</h2>
-      <div class="entry project-entry">
-        <div class="project-media">
-          <img src="/img/multi-scale-schema.png" alt="Schema of multi-scale tropical reef mapping from citizen and autonomous surface vehicle data to drone and satellite imagery." />
-        </div>
-        <div class="project-copy">
-          <div class="entry-title">Multi-scale Mapping of Changes in Tropical Reefs</div>
-          <div class="entry-meta">PhD project · IFREMER DOI + INRIA IROKO Pl@ntNet team · 2022–2025</div>
-          <p>This PhD project develops a multi-scale deep learning pipeline to quantify changes in tropical coral reef ecosystems, including habitat extent, bleaching events, and species diversity. The workflow links fine-scale observations collected by citizens and autonomous surface vehicles with drone imagery and, ultimately, satellite data, so that local ecological information can be scaled up to very large areas across the Indian Ocean and beyond. The goal is to build transferable monitoring tools that support public policy and the long-term ecological sustainability of tropical reefs.</p>
-        </div>
-      </div>
-      <div class="entry project-entry">
-        <div class="project-media">
-          <img src="/img/plancha.jpg" alt="PLANCHA autonomous board prototype deployed on the water." />
-        </div>
-        <div class="project-copy">
-          <div class="entry-title">PLANCHA</div>
-          <div class="entry-meta">Instrumented autonomous board project</div>
-          <p>PLANCHA develops low-cost autonomous platforms for monitoring coral reef habitats in areas that are difficult to access or too expensive to survey regularly. By combining onboard image acquisition, automated image analysis, and environmental DNA, the project aims to map reef flats and outer slopes around La Réunion while documenting associated biodiversity. It is also designed as an open-science initiative, with accessible tools, shared data and software, and strong public outreach.</p>
-        </div>
-      </div>
-      <div class="entry project-entry">
-        <div class="project-media">
-          <img src="/img/seatizen-mask.png" alt="Instrumented snorkeling mask used in the Seatizen project." />
-        </div>
-        <div class="project-copy">
-          <div class="entry-title">SEATIZEN</div>
-          <div class="entry-meta">Participatory marine data collection project</div>
-          <p>SEATIZEN turns sea users into contributors to marine observation by equipping activities such as sailing, board sports, and diving with low-cost sensors and connected tools. The project builds a participatory network for collecting environmental and biodiversity data while also returning useful feedback to participants, including activity metrics and safety features. In its pilot phase in La Réunion, SEATIZEN supports lagoon mapping, image annotation, and automatic species recognition through deep learning.</p>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <h2>Education</h2>
-      <div class="entry"><div class="entry-title">PhD Student — Multi-scale mapping of changes in tropical reefs</div><div class="entry-meta"><a href="https://ocean-indien.ifremer.fr/" target="_blank" rel="noopener noreferrer">IFREMER (DOI)</a> and <a href="https://team.inria.fr/iroko/" target="_blank" rel="noopener noreferrer">INRIA (IROKO Pl@ntNet team)</a> · Le Port, La Réunion · October 2022 – November 2025</div></div>
-      <div class="entry"><div class="entry-title">Master in Mathematical Engineering — Applied Statistics</div><div class="entry-meta">Politecnico di Milano · Milan, Italy · September 2018 – December 2021</div></div>
-      <div class="entry"><div class="entry-title">Exchange Program — Machine Learning and Data Mining</div><div class="entry-meta">Universidad de Chile · Santiago, Chile · February 2020 – July 2020</div></div>
-      <div class="entry"><div class="entry-title">Master in General Engineering — Double-degree student following the TIME project</div><div class="entry-meta">École Centrale de Lyon · Lyon, France · September 2016 – August 2018</div></div>
-      <div class="entry"><div class="entry-title">Bachelor’s Degree in Applied Mathematics</div><div class="entry-meta">Politecnico di Milano · Milan, Italy · September 2014 – August 2018</div></div>
-    </section>
-
-    <section>
-      <h2>Experience</h2>
-      <div class="entry"><div class="entry-title">DeepLearn Summer School</div><div class="entry-meta">International School on Deep Learning · Porto, Portugal · July 15–19, 2024</div></div>
-      <div class="entry"><div class="entry-title">Participation in the Indian Ocean Expedition</div><div class="entry-meta">Monaco Explorations · Indian Ocean · October 2022 – November 2022</div><p>Collected bathymetry and images using autonomous boards and aerial drones at Aldabra, Saya de Malha, and Saint-Brandon. <a href="https://www.monacoexplorations.org/missions/mission-ocean-indien-2022/" target="_blank" rel="noopener noreferrer">Link</a></p></div>
-      <div class="entry"><div class="entry-title">Civic Service Volunteer</div><div class="entry-meta">Ifremer DOI · Le Port, La Réunion · October 2020 – September 2022</div><p>Developed neural networks using PyTorch for underwater image recognition and managed data collection workflows and storage on dedicated Datarmor servers.</p></div>
-      <div class="entry"><div class="entry-title">R&D Intern in Bio-engineering and Applied Mathematics</div><div class="entry-meta">CEU-UCH International Research Chair · Elche, Spain · May – July 2018</div><p>Analyzed and developed models for cancer treatment and metastatic processes.</p></div>
-    </section>
-
-    <section id="publications">
-      <h2>Selected Publications</h2>
-      <div class="small-note"><a href="/publication/">More Publications</a></div>
-      <div class="entry"><div class="entry-title">The Point is the Mask: Scaling coral reef segmentation with weak supervision</div><div class="entry-meta">M. Contini, V. Illien, et al. · IEEE/CVF International Conference on Computer Vision Workshops (ICCVW) · 2025</div><p>Weak-supervision approach for coral reef segmentation that scales annotation efficiently from point labels.</p><div class="pill-row"><a class="pill" href="https://openaccess.thecvf.com/content/ICCV2025W/CVAUI%20%26%20AAMVEM/html/Contini_The_point_is_the_mask_scaling_coral_reef_segmentation_with_ICCVW_2025_paper.html" target="_blank" rel="noopener noreferrer">PDF / Link</a></div></div>
-      <div class="entry"><div class="entry-title">From underwater to drone: A novel multi-scale knowledge distillation approach for coral reef monitoring</div><div class="entry-meta">M. Contini, V. Illien, et al. · Ecological Informatics · 2025</div><p>Multi-scale knowledge distillation between underwater and aerial imagery for coral reef monitoring.</p><div class="pill-row"><a class="pill" href="https://doi.org/10.1016/j.ecoinf.2025.103149" target="_blank" rel="noopener noreferrer">PDF / Link</a></div></div>
-      <div class="entry"><div class="entry-title">An autonomous surface vehicle for acoustic tracking, bathymetric and photogrammetric surveys</div><div class="entry-meta">P. Gogendeau, S. Bonhommeau, et al. · Ocean Engineering · 2025</div><p>Autonomous surface vehicle for field surveys combining acoustic tracking, bathymetry, and photogrammetry.</p><div class="pill-row"><a class="pill" href="https://doi.org/10.1016/j.oceaneng.2025.121201" target="_blank" rel="noopener noreferrer">PDF / Link</a></div></div>
-      <div class="entry"><div class="entry-title">Seatizen Atlas: a collaborative dataset of underwater and aerial marine imagery</div><div class="entry-meta">M. Contini, V. Illien, et al. · Scientific Data · 2025</div><p>Collaborative dataset for underwater and aerial marine imagery to support coral reef and ecosystem monitoring.</p><div class="pill-row"><a class="pill" href="https://doi.org/10.1038/s41597-024-04267-z" target="_blank" rel="noopener noreferrer">PDF / Link</a></div></div>
-      <div class="entry"><div class="entry-title">GeoAI for Marine Ecosystem Monitoring: a Complete Workflow to Generate Maps from AI Model Predictions</div><div class="entry-meta">J. Talpaert Daudon, M. Contini, et al. · ISPRS Archives · 2023</div><p>End-to-end GeoAI workflow to transform model predictions into operational ecosystem maps.</p><div class="pill-row"><a class="pill" href="https://isprs-archives.copernicus.org/articles/XLVIII-4-W7-2023/223/2023/" target="_blank" rel="noopener noreferrer">PDF / Link</a></div></div>
-    </section>
-
-    <section id="outreach">
-      <h2>Outreach</h2>
-      <div class="entry"><div class="entry-title">TV5MONDE</div><div class="entry-meta">February 2025</div><p>Featured in a report on the use of artificial intelligence for coral reef monitoring in Réunion Island. <a href="https://www.youtube.com/watch?v=bh823I0fztg&t=53s&ab_channel=TV5MONDEInfo" target="_blank" rel="noopener noreferrer">Link</a></p></div>
-      <div class="entry"><div class="entry-title">Océans Connectés</div><div class="entry-meta">September 2024</div><p>Article on AI and tropical reefs. <a href="https://oceansconnectes.org/lintelligence-artificielle-recifs-tropicaux/" target="_blank" rel="noopener noreferrer">Link</a></p></div>
-      <div class="entry"><div class="entry-title">ARTE</div><div class="entry-meta">October 7, 2023</div><p>Featured in the Indian Ocean mission documentary on scientific exploration and marine conservation. <a href="https://www.youtube.com/watch?v=hVYA1FY5tz4&ab_channel=LePointCulture" target="_blank" rel="noopener noreferrer">Link</a></p></div>
-      <div class="entry"><div class="entry-title">Outre-mer grandeur Nature</div><div class="entry-meta">June 2023</div><p>Magazine appearance (page 31). <a href="https://issuu.com/oceindia/docs/omgn16" target="_blank" rel="noopener noreferrer">Link</a></p></div>
-      <div class="entry"><div class="entry-title">Monaco Ocean Week</div><div class="entry-meta">March 21, 2023 · Monaco, France</div><p>Presented preliminary results from the B4Sea team. <a href="https://www.monacoexplorations.org/actualites/mow2023/" target="_blank" rel="noopener noreferrer">Link</a></p></div>
-      <div class="entry"><div class="entry-title">Fête de la science</div><div class="entry-meta">November 15–17, 2021 · La Nouvelle (Mafate, La Réunion), France</div><p>Presented Ifremer DOI research projects using new ocean exploration equipment. <a href="https://ocean-indien.ifremer.fr/Actualites/Fete-de-la-Science-L-Ifremer-a-Mafate-et-a-Kelonia" target="_blank" rel="noopener noreferrer">Link</a></p></div>
-    </section>
-
-    <section>
-      <h2>Awards</h2>
-      <div class="entry"><div class="entry-title">Prix Science Ouverte des Données de la Recherche (Team Award)</div><div class="entry-meta">December 2025</div><p>Ministère de l’Enseignement Supérieur, de la Recherche et de l’Espace · Project: “Seatizen - Données d’imagerie des écosystèmes coralliens”. <a href="https://www.enseignementsup-recherche.gouv.fr/fr/remise-des-prix-science-ouverte-edition-2025-100469" target="_blank" rel="noopener noreferrer">Link</a></p></div>
-      <div class="entry"><div class="entry-title">EuroMarine Young Scientist Fellowship Programme 2023</div><div class="entry-meta">July 2023</div><p>EuroMarine - European Marine Research Network.</p></div>
-      <div class="entry"><div class="entry-title">GeoHab’s Ron McDowell Student Award 2023</div><div class="entry-meta">May 2023</div><p>GEOHAB. <a href="https://geohab.org/student-awards/" target="_blank" rel="noopener noreferrer">Link</a></p></div>
-    </section>
-
-    <section>
-      <h2>Skills</h2>
-      <div class="grid-2">
-        <div class="card"><h3>Languages</h3><div class="pill-row"><span class="pill">Italian (native)</span><span class="pill">French (C2)</span><span class="pill">English (C1)</span><span class="pill">Spanish (B2)</span></div></div>
-        <div class="card"><h3>Certifications</h3><p>Drone Pilot Certificate (DGAC), Diver Level 2 &amp; RIFAP &amp; RIFAA (FFESSM), CAH1B professional diving certificate, Coastal Powerboat License, Lifeguard Certificate.</p></div>
-        <div class="card"><h3>Computing</h3><p>macOS, Windows, Linux, LaTeX, Office Pack, Matlab, C/C++, Prolog, R, Python.</p></div>
-        <div class="card"><h3>Tools</h3><p>MySQL (basic), QGIS, SolidWorks (basic).</p></div>
-      </div>
-    </section>
-
-    <div class="footer">© <span id="year"></span> · Styled after the public structure of Alexandre Ramé’s GitHub Pages site and adapted with Matteo Contini’s content.</div>
+    <div class="footer">© <span id="year"></span> · Matteo Contini.</div>
   </main>
   <script src="/js/main.js"></script>
 </body>
