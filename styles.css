@@ -69,8 +69,8 @@ section h2 { font-size:1.7rem; margin:0 0 1rem; letter-spacing:-0.03em; }
   gap: 1rem;
 }
 .profile-photo {
-  width: 100%;
-  aspect-ratio: 4 / 5;
+  width: 75%;
+  aspect-ratio: 5 / 4;
   object-fit: cover;
   border-radius: 18px;
   border: 1px solid var(--border);
