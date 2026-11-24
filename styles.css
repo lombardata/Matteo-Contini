@@ -270,8 +270,25 @@ section h2 { font-size:1.7rem; margin:0 0 1rem; letter-spacing:-0.03em; }
     gap: 0;
   }
 
-  .review-grid .entry:not(:first-child) {
+.review-grid .entry:not(:first-child) {
     border-top: 1px solid var(--border);
     padding-top: 1rem;
   }
+}
+
+/* Allow cards to have independent heights */
+.hero-side-grid {
+  align-items: start;
+}
+
+.hero-side-grid .compact-card {
+  height: auto;
+  align-self: start;
+}
+
+/* Add a separator below card titles */
+.compact-card h3 {
+  border-bottom: 1px solid #dfe3e8;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
 }
